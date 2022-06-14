@@ -1,0 +1,50 @@
+  
+  .head{
+        
+    background-color:white;
+    background-image: url(bg.png);
+    border:solid;
+    font-family: fantasy;
+     }
+
+  
+     .menu{
+       display: flex;
+       justify-content: start;
+      
+       padding: 15px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: #000000;
+       
+       
+     }
+  
+  .grid {
+    background-color: #F0F8FF;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-top: 200;
+    margin-left: 200;
+  }
+  .explain {
+    color:darkgreen
+  }
+  
+  a:link{
+    transform: scale(1.2);
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  a:visited{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .img:hover{
+    background-color: rgba(250, 10, 10, 0.349);
+    color:  black;
+  }
